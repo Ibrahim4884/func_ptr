@@ -5,7 +5,7 @@
 /* callback function definition goes here */
 void my_callback(void)
 {
-    printf(" < %d >inside my_callback\n", __LINE__ );
+    printf(" < %s : %d >inside my_callback\n", __func__,  __LINE__ );
 }
  
 int main(void)
